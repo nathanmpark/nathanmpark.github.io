@@ -1,0 +1,63 @@
+.social-img {
+  height: 2em;
+  width: 2em;
+}
+
+.sidebar {
+  position: fixed;
+  float: left;
+  height: 100%;
+  text-align: center;
+  background-color: #FFFBFF;
+}
+
+.bot-side {
+  margin-top: 21.25em;
+}
+
+.side-border {
+  border-right: 1px solid #767676;
+  padding-right: 1em;
+  padding-left: 1em;
+}
+
+.profile {
+  height: 10em;
+  width: 10em;
+  border-radius: 1em;
+  margin-top: 14.5px;
+}
+
+.page {
+  margin-left: 14.5em;
+  margin-right: 1em;
+}
+
+.first-title {
+  margin: 0em;
+  padding-top: 14.5px;
+}
+
+.no-body {
+  margin: 0em;
+}
+
+a:link {
+  color: #767676;
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+}
+
+.font{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.image {
+  width: 100%
+}
+
+.search {
+  float: right;
+  margin-top: 14.5px;
+  margin-right: 1em;
+}
