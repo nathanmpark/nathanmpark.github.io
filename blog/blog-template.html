@@ -1,48 +1,58 @@
 <!DOCTYPE html>
 <html>
 <head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
   <title>
     Nathan Park
   </title>
 </head>
-<body>
-  <form>
-    Search:
-    <br>
-      <input type="text" name="blogname">
-    <br>
-  </form>
-  <h1>Blog Posts</h1>
-  <nav>
-      <ul>
-        <li><a href="t1-git-blog.html">Git, Github, and Terminal</a></li>
-        <li><a href="c1-chefs-kitchen.html">Why I Chose DBC</a></li>
-        <li><a href="#">Link 3</a></li>
-        <li><a href="#">Link 4</a></li>
-        <li><a href="#">Link 5</a></li>
-        <li><a href="#">Link 6</a></li>
-        <li><a href="#">Link 7</a></li>
-        <li><a href="#">Link 8</a></li>
-        <li><a href="#">Link 9</a></li>
-      </ul>
-  </nav>
-  <hr>
+<body class="no-body">
 
-  <section>
-      <h2>Latest Blog Post</h2>
-      <p>Text here, write something interesting that someone would want to read about.</p>
-  </section>
-  <aside>
-    <img src="../imgs/nate.jpg" alt="Nathan Park">
-      <p><a href="#">Resume</a></p>
-      <p><a href="#">Connect</a></p>
-      <p><a href="#">Projects</a></p>
-      <p><a href="#">Ideas</a></p>
-      <p><a href="#">Blog</a></p>
-      <p><a href="#">About Me</a></p>
-    <a href="https://www.facebook.com/nathan.park.587"><img src="../imgs/facebook.png" alt = "Facebook"></a>
-    <a href="https://twitter.com/nathanmpark"><img src="../imgs/twitter.png" alt = "Twitter"></a>
-  </aside>
+  <div class="sidebar side-border">
+    <a href="../index.html"> <img class="profile" src="../imgs/nate.jpg" alt="Nathan Park"></a>
+    <p><a href="#">Resume</a></p>
+    <p><a href="#">Connect</a></p>
+    <p><a href="#">Projects</a></p>
+    <p><a href="#">Ideas</a></p>
+
+    <div class="bot-side">
+      <p><a href="blog-template.html">Blog</a></p>
+      <p><a href="../index.html">About Me</a></p>
+      <a href="https://www.facebook.com/nathan.park.587" target="_blank"><img class="social-img" src="../imgs/facebook.png" alt = "Facebook"></a>
+      <a href="https://twitter.com/nathanmpark" target="_blank"><img  class="social-img" src="../imgs/twitter.png" alt = "Twitter"></a>
+      <a href="https://www.linkedin.com/in/nathanmpark" target="_blank"><img  class="social-img" src="../imgs/linkedin.png" alt = "LinkedIn"></a>
+      <a href="https://github.com/nathanmpark" target="_blank"><img  class="social-img" src="../imgs/github.png" alt = "Github"></a>
+      <a href="https://plus.google.com/u/0/107107615672675157407/about/p/pub" target="_blank"><img  class="social-img" src="../imgs/googleplus.png" alt = "Google Plus"></a>
+
+    </div>
+  </div>
+
+  <div class="page font">
+    <h2 class="first-title">Blog Posts</h2>
+    <nav>
+        <ul class="blog-list">
+          <li><a href="t1-git-blog.html">Git Your Act Together: Basics on Version Control</a></li>
+          <li><a href="c1-chefs-kitchen.html">Why I Chose DBC</a></li>
+          <li><a href="#">Link 3</a></li>
+          <li><a href="#">Link 4</a></li>
+          <li><a href="#">Link 5</a></li>
+          <li><a href="#">Link 6</a></li>
+          <li><a href="#">Link 7</a></li>
+          <li><a href="#">Link 8</a></li>
+          <li><a href="#">Link 9</a></li>
+        </ul>
+    </nav>
+  <!-- <hr> -->
+
+    <div>
+        <h2>Latest Blog Post</h2>
+        <p>Text here, write something interesting that someone would want to read about.</p>
+    </div>
+  </div>
 </body>
 </html>
 

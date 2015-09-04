@@ -1,0 +1,17 @@
+.page-link {
+  text-decoration: underline;
+}
+
+.blog-list {
+  list-style: none;
+  padding-left: 1em;
+}
+
+.page-list {
+  list-style: square;
+  margin-top: 0em;
+}
+
+.list-title {
+  margin-bottom: 0em;
+}
