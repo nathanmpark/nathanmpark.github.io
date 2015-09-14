@@ -15,3 +15,11 @@
 .list-title {
   margin-bottom: 0em;
 }
+
+.code {
+  text-align: center;
+}
+
+code {
+  background-color: #eee;
+}
