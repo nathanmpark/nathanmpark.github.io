@@ -8,10 +8,10 @@
   float: left;
   height: 100%;
   text-align: center;
-  /*background-color: #FFFBFF;*/
-  background-image: url('../imgs/SF_bridge.jpg');
+  background-color: #FFFBFF;
+/*  background-image: url('../imgs/SF_bridge.jpg');
   background-size: cover;
-  background-position: center;
+  background-position: center;*/
 }
 
 .bot-side {
@@ -74,10 +74,10 @@ a:visited{
   /*background-image: url('../imgs/paint.jpg');*/
   /*background-image: url('../imgs/desk.jpg');*/
   /*background-image: url('../imgs/lil_cheetah.jpg');*/
-/*  background-image: url('../imgs/SF_bridge.jpg');
+  background-image: url('../imgs/SF_bridge.jpg');
   background-size: cover;
-  background-position: right top;*/
-  background-color: #FFFBFF;
+  background-position: right top;
+  /*background-color: #FFFBFF;*/
 }
 
 /*.transbox{
