@@ -1,0 +1,49 @@
+.header{
+  background-image: url("../imgs/cellospeak.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 20em;
+  width: 100%;
+  text-align: center;
+}
+
+.wrapper{
+  width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.content-head{
+  text-align: center;
+}
+
+.content-pre{
+  width: 150px;
+  top: 20px;
+  position: relative;
+  margin: auto;
+  color: #888888;
+  font-family: 'EB Garamond', Serif;
+  font-size: 18px;
+  line-height: 1.5;
+}
+
+.title{
+  font-family: 'EB Garamond', Serif;
+  text-align: center;
+  font-weight: 100;
+  font-size: 28px;
+  position: relative;
+  line-height: 1.5;
+}
+
+.content-text{
+  font-size: 19px;
+  line-height: 1.5;
+  font-family: 'Crimson Text', Serif;
+}
+
+body{
+  margin: 0;
+}
