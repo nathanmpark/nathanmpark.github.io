@@ -29,13 +29,15 @@
 }
 
 .page {
-  margin-left: 14.5em;
+  margin-left: 50%;
+  /*margin-left: 14.5em;*/
   margin-right: 1em;
 }
 
 .first-title {
   margin: 0em;
-  padding-top: 14.5px;
+  padding-top: 2.5em;
+  /*padding-top: 14.5px;*/
 }
 
 .no-body {
@@ -54,10 +56,17 @@ a:visited{
   text-decoration: none;
 }
 
+/*a:hover{
+  margin-left: 1em;
+} -- find a way to only apply to certain links???*/
+
 .font{
   font-family: 'Open Sans', sans-serif;
 }
 
-.image {
-  width: 100%
+.background{
+  /*background-image: url('../imgs/paint.jpg');*/
+  /*background-image: url('../imgs/desk.jpg');*/
+  background-image: url('../imgs/SF_bridge.jpg');
+  /*background-repeat: no-repeat;*/
 }
