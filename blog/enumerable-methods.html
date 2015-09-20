@@ -6,7 +6,7 @@
   <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
   <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-  <title>Ideas</title>
+  <title>Enumerable Methods</title>
 </head>
 
 <body class="no-body background">
@@ -29,28 +29,30 @@
     </div>
   </div>
   <div class="font page">
-    <h2 class="first-title">Ideas</h2>
+    <h2 class="first-title">Enumerable Methods</h2>
+    <h4>How enumerable cycle works</h4>
+    <h4>September 19, 2015</h4>
 
     <div>
-      <p>Some things that I find interesting.</p>
+      <p>Enumerables provide collections of data with traversal, searching, and sort methods. These collection classes must provide the each method, which yields each item within a collection. Essentially, and enumerable is a block of code or method that can be applied iteratively over a list of data.</p>
+      <h4>Enumerable#cycle</h4>
+      <p>Cycle calls a block for each element of enum repeatedly n times or forever if none or nil is given. If a non-positive number is given or the collection is empty, does nothing. Returns nil if the loop has finished without getting interrupted.</p>
+      <p>#cycle saves elements in an internal array so changes to enum after the first pass have no effect.</p>
+      <p>If no block is given, an enumerator is returned instead.</p>
 
-      <div>
-        <p class="list-title">E-commerce</p>
-          <ul class="page-list">
-            <li><a href="https://www.shopify.com/blog/34526469-how-we-built-an-ecommerce-business-from-scratch-and-generated-922-16-in-revenue-in-3-days" target="_blank"><span>Shopify Case Study<span></a></li>
-            <li><a href="https://medium.com/@ollieaplin/6-things-i-learned-from-creating-an-e-commerce-product-1e412947d782" target="_blank"><span>6 Things I Learned from Creating an E-commerce Product</span></a></li>
-            <li><a href="https://medium.com/keep-learning-keep-growing/how-two-non-technical-cofounders-made-millions-edc824417878" target="_blank"><span>How Two Non-Technical Cofounders Grew & Sold Their Startup for Millions</span></a></li>
-          </ul>
+      <div class = "code">
+        <p>The general structure of the cycle enumerable is as such:<pre><code>cycle(n=nil){|obj| block} -> nil</code></pre></p>
+        <p>n = the number of times you want to cycle through the list of data, obj = object that is being passed into cycle, and block = a block of code you wish to run onto the given object.</p>
+        <p>An enumerator can be created as well:<pre><code>cycle(n=nil) -> an_enumerator</code></pre></p>
       </div>
-      <div>
-        <p class="list-title">Andreessen Horowitz</p>
-          <ul class="page-list">
-            <li><a href="http://a16z.com/2015/06/19/mobile-it-changes-everything/" target="_blank"><span>Mobile: It Changes Everything<span></a></li>
-            <li><a href="http://a16z.com/2015/06/15/u-s-tech-funding-whats-going-on/" target="_blank"><span>U.S. Tech Funding - What's Going On?<span></a></li>
-          </ul>
+
+      <h4>Examples</h4>
+      <div class = "code">
+        <p><pre><code>a = ["a","b","c"]</code></pre></p>
+        <p><pre><code>a.cycle { |x| puts x } #print, a, b, c, a, b, c,.. forever.</code></pre></p>
+        <p><pre><code>a.cycle(2) { |x| puts x } #print, a, b, c, a, b, c.</code></pre></p>
       </div>
     </div>
   </div>
 </body>
 </html>
-
