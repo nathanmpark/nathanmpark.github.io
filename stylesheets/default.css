@@ -33,7 +33,7 @@
 }
 
 .page {
-  margin-left: 55%;
+  margin-left: 18%;
   /*margin-left: 17%;*/
   /*margin-left: 14.5em;*/
   margin-right: 1em;
@@ -41,7 +41,7 @@
 
 .first-title {
   margin: 0em;
-  padding-top: 2.5em;
+  padding-top: 1.5em;
   /*padding-top: 14.5px;*/
 }
 
@@ -71,11 +71,7 @@ a:visited{
 }
 
 .background{
-  /*background-image: url('../imgs/paint.jpg');*/
-  /*background-image: url('../imgs/desk.jpg');*/
-  /*background-image: url('../imgs/lil_cheetah.jpg');*/
-  background-image: url('../imgs/SF_bridge.jpg');
+  background-image: url('../imgs/snowboard.jpg');
   background-size: cover;
-  background-position: right top;
-  /*background-color: #FFFBFF;*/
+  background-position: center top;
 }
