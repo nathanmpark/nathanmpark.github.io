@@ -30,27 +30,23 @@
   </div>
   <div class="font page">
     <h2 class="first-title">Enumerable Methods</h2>
-    <h4>How enumerable cycle works</h4>
+    <h4>How Enumerable#cycle works</h4>
     <h4>September 19, 2015</h4>
 
     <div>
-      <p>Enumerables provide collections of data with traversal, searching, and sort methods. These collection classes must provide the each method, which yields each item within a collection. Essentially, and enumerable is a block of code or method that can be applied iteratively over a list of data.</p>
+      <p>Enumerables provide collections of data with iterable methods. Anytime you have a list of inforation, via an array or hash, you can employ certain methods which will implicitly go through each item. These methods can go through the list once or many time. The main component is the .each method which is being implemented to the list in order to impact each item. In Essence, an enumerable is a block of code or method that can be applied iteratively over a list of data.</p>
       <h4>Enumerable#cycle</h4>
-      <p>Cycle calls a block for each element of enum repeatedly n times or forever if none or nil is given. If a non-positive number is given or the collection is empty, does nothing. Returns nil if the loop has finished without getting interrupted.</p>
+      <p>Cycle calls a block for each element of a list repeatedly n times or forever if none or nil is given. If a non-positive number is given or the collection is empty, it does nothing. Returns nil if the loop has finished without getting interrupted.</p>
       <p>#cycle saves elements in an internal array so changes to enum after the first pass have no effect.</p>
       <p>If no block is given, an enumerator is returned instead.</p>
 
-      <div class = "code">
-        <p>The general structure of the cycle enumerable is as such:<pre><code>cycle(n=nil){|obj| block} -> nil</code></pre></p>
-        <p>n = the number of times you want to cycle through the list of data, obj = object that is being passed into cycle, and block = a block of code you wish to run onto the given object.</p>
-        <p>An enumerator can be created as well:<pre><code>cycle(n=nil) -> an_enumerator</code></pre></p>
+      <div>
+        <script src="https://gist.github.com/nathanmpark/bec349dbb749ef015d46.js"></script>
       </div>
 
       <h4>Examples</h4>
-      <div class = "code">
-        <p><pre><code>a = ["a","b","c"]</code></pre></p>
-        <p><pre><code>a.cycle { |x| puts x } #print, a, b, c, a, b, c,.. forever.</code></pre></p>
-        <p><pre><code>a.cycle(2) { |x| puts x } #print, a, b, c, a, b, c.</code></pre></p>
+      <div>
+        <script src="https://gist.github.com/nathanmpark/d4d83098df5b2828806d.js"></script>
       </div>
     </div>
   </div>
