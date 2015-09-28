@@ -8,10 +8,7 @@
   float: left;
   height: 100%;
   text-align: center;
-  background-color: #FFFBFF;
-/*  background-image: url('../imgs/SF_bridge.jpg');
-  background-size: cover;
-  background-position: center;*/
+  background-color: #FFFFFF;
 }
 
 .bot-side {
@@ -20,9 +17,8 @@
 }
 
 .side-border {
-  border-right: 1px solid #767676;
-  padding-right: 1em;
-  padding-left: 1em;
+  padding-right: 2%;
+  padding-left: 2%;
 }
 
 .profile {
@@ -33,7 +29,7 @@
 }
 
 .page {
-  margin-left: 18%;
+  margin-left: 19%;
   /*margin-left: 17%;*/
   /*margin-left: 14.5em;*/
   margin-right: 1em;
