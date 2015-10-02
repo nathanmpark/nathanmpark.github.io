@@ -1,7 +1,3 @@
-/*.page-link {
-  text-decoration: underline;
-}*/
-
 .blog-list {
   list-style: none;
   padding-left: 1em;
@@ -14,12 +10,4 @@
 
 .list-title {
   margin-bottom: 0em;
-}
-
-.code {
-  text-align: center;
-}
-
-code {
-  background-color: #eee;
 }
