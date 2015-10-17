@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+  <link href='https://fonts.googleapis.com/css?family=Ubuntu' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
+  <title>Ruby Classes</title>
+</head>
+
+<body class="no-body background">
+  <div class="sidebar side-border">
+    <a href="../index.html"><img class="profile" src="../imgs/nate.jpg" alt="Nathan Park"></a>
+    <p><a href="resume.pdf" target="_blank">Resume</a></p>
+    <p><a href="mailto:nate.park90@gmail.com">Connect</a></p>
+    <p><a href="../projects/index.html">Projects</a></p>
+    <p><a href="ideas.html">Ideas</a></p>
+
+    <div class="bot-side">
+      <p><a href="blog-template.html">Blog</a></p>
+      <p><a href="../about.html">About Me</a></p>
+      <a href="https://www.facebook.com/nathan.park.587" target="_blank"><img class="social-img" src="../imgs/facebook.png" alt = "Facebook"></a>
+      <a href="https://twitter.com/nathanmpark" target="_blank"><img  class="social-img" src="../imgs/twitter.png" alt = "Twitter"></a>
+      <a href="https://www.linkedin.com/in/nathanmpark" target="_blank"><img  class="social-img" src="../imgs/linkedin.png" alt = "LinkedIn"></a>
+      <a href="https://github.com/nathanmpark" target="_blank"><img  class="social-img" src="../imgs/github.png" alt = "Github"></a>
+      <a href="https://plus.google.com/u/0/107107615672675157407/about/p/pub" target="_blank"><img  class="social-img" src="../imgs/googleplus.png" alt = "Google Plus"></a>
+
+    </div>
+  </div>
+  <div class="font page">
+    <h2 class="first-title">Ruby Classes</h2>
+    <h4>An Example Class</h4>
+    <h4>September 24, 2015</h4>
+
+    <div>
+      <p>Classes are an essential part of the programming heirarchy. Defining a class allows you to group behaviors (methods) together so that you can quickly create objects that behave the same way. Classes act as a convenient way to bundle certain attributes and actions together into a single object. Everything done in Ruby is essentially a an object, and classes are simply one way of creating an instance of objects.</p>
+      <p>Classes effectively organize methods and objects in a meaningful way. Classes exist for the purpose of being instantiated, or to create objects that are instances of the class. In doing this, you can create instance methods within the class, and instance variables that reside within the class. In the example below you can see how a bike has a given wheel size, frame, recommended tire pressure, and an owner. These different attributes of the bike are part of the intantiated Bike class.</p>
+
+      <h4>Example Class</h4>
+      <script src="https://gist.github.com/nathanmpark/afe17f2c6a46add4fe85.js"></script>
+
+      <p>Because classes are a way to organize multiple methods together. You need a way to make sure the methods you've created are able to pass information from one another. In the example above, we can see how on line 23, an instance method uses the instance variables from earlier methods to puts a line to the console.</p>
+      <p>Any method that is created within a class is called an instance method. This is because you have a method that exists within an instance of a class. In the example below see the comments, which identify an instance method and instance variable. </p>
+
+      <h4>Example Instance Method</h4>
+      <script src="https://gist.github.com/nathanmpark/18de2d2816c0608fc4c3.js"></script>
+    </div>
+  </div>
+</body>
+</html>

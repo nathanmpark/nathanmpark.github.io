@@ -1,0 +1,73 @@
+.social-img {
+  height: 2em;
+  width: 2em;
+}
+
+.sidebar {
+  position: fixed;
+  float: left;
+  height: 100%;
+  text-align: center;
+  background-color: #FFFFFF;
+}
+
+.bot-side {
+  margin-top: 21.25em;
+  float: bottom;
+}
+
+.side-border {
+  padding-right: 2%;
+  padding-left: 2%;
+}
+
+.profile {
+  height: 9em;
+  width: 9em;
+  border-radius: 50%;
+  margin-top: 14.5px;
+}
+
+.page {
+  margin-left: 19%;
+  /*margin-left: 17%;*/
+  /*margin-left: 14.5em;*/
+  margin-right: 1em;
+}
+
+.first-title {
+  margin: 0em;
+  padding-top: 1.5em;
+  /*padding-top: 14.5px;*/
+}
+
+.no-body {
+  margin: 0em;
+}
+
+a:link {
+  color: #767676;
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+}
+
+a:visited{
+  color: #767676;
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration: none;
+}
+
+/*a:hover{
+  margin-left: 1em;
+} -- find a way to only apply to certain links???*/
+
+.font{
+  font-family: 'Open Sans', sans-serif;
+  color: black;
+}
+
+.background{
+  background-image: url('../imgs/snowboard.jpg');
+  background-size: cover;
+  background-position: center top;
+}
